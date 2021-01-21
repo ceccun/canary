@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--body-color);
+}
+.content{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+h1,h2,h3,h4,h5,h6,p{
+    font-family: 'Inter','Kosugi Maru', sans-serif;
+    color: var(--text-color);
+}
+.svg{
+    filter: invert(var(--imgfiltercolor));
+}
