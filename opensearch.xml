@@ -1,14 +1,8 @@
-<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
-                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
-  <ShortName>Stella</ShortName>
-  <Description>The search engine built for maximum performance and maximum security.</Description>
-  <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">[https://example.com/favicon.ico]</Image>
-  <Url type="text/html" template="[searchURL]">
-    <Param name="[key name]" value="{searchTerms}"/>
-    <!-- other Params if you need them… -->
-    <Param name="[other key name]" value="[parameter value]"/>
-  </Url>
-  <Url type="application/x-suggestions+json" template="[suggestionURL]"/>
-  <moz:SearchForm>[https://example.com/search]</moz:SearchForm>
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+    <ShortName>Stella</ShortName>
+    <Description>The new version of the Stella search engine. 🤫</Description>
+    <InputEncoding>UTF-8</InputEncoding>
+    <Image height="16" width="16" type="image/x-icon">http://beta.stella.hs.vc/favicon.ico</Image>
+    <Url type="text/html" method="get" template="http://beta.stella.hs.vc/search?q={searchTerms}" />
 </OpenSearchDescription>
