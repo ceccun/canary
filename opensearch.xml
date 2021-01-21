@@ -3,6 +3,6 @@
     <ShortName>Stella</ShortName>
     <Description>The new version of the Stella search engine. 🤫</Description>
     <InputEncoding>UTF-8</InputEncoding>
-    <Image height="16" width="16" type="image/x-icon">http://beta.stella.hs.vc/favicon.ico</Image>
-    <Url type="text/html" method="get" template="http://beta.stella.hs.vc/search?q={searchTerms}" />
+    <Image height="16" width="16" type="image/x-icon">https://beta.stella.hs.vc/favicon.ico</Image>
+    <Url type="text/html" method="get" template="https://beta.stella.hs.vc/search?q={searchTerms}" />
 </OpenSearchDescription>
