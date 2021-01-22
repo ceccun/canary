@@ -20,7 +20,6 @@
     vertical-align: top;
     outline: none;
     padding-left: 5px;
-    padding-right: 5px;
     color: var(--text-color)
 }
 .o8zmSfP7yK {
@@ -33,4 +32,105 @@
     border-radius: 7px;
     width: 90vw;
     height: 40px;
+}
+.dhNpf9anwI{
+    margin-top: 30px;
+}
+.csbarWsxa56mO5H{
+	display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.csbarWsxa56mO5H div button{
+	border: 0;
+	padding: 20px;
+	border-radius: 10px;
+	margin-right: 5px;
+	background-color: var(--light-large-opposite-color);
+	outline: none;
+	transform: scale(1);
+	transition: width 0.2s cubic-bezier(0,0,.06,.97), transform 0.2s cubic-bezier(0,0,.06,.97) !important;
+}
+.csbarWsxa56mO5H div button:hover{
+	background-color: var(--light-opposite-color);
+	outline: none;
+	transform: scale(1);
+	transition: width 0.2s cubic-bezier(0,0,.06,.97), transform 0.2s cubic-bezier(0,0,.06,.97) !important;
+}
+.csbarWsxa56mO5H div button:active{
+	transform: scale(0.9);
+	transition: transform 0.2s cubic-bezier(0,0,.06,.97), width 0.2s cubic-bezier(0,0,.06,.97) !important;
+}
+.csbarWsxa56mO5H div .active{
+    border: 0;
+	padding: 20px;
+	border-radius: 10px;
+	margin-right: 5px;
+	background-color: var(--shadow-colors) !important;
+	color: var(--body-color);
+	outline: none;
+	transition: width 0.2s cubic-bezier(0,0,.06,.97) !important;
+}
+.gsc-tabsArea{
+	display: none;
+}
+.gsc-control-cse.gsc-control-cse-en{
+	padding: 0;
+    margin-top: 10px;
+    background-color: var(--body-color);
+    border: 0;
+}
+.gsc-orderby{
+ display: none;
+}
+.gsc-webResult.gsc-result{
+    width: 100%;
+    background-color: var(--body-color) !important;
+    border:0 !important;
+}
+.gs-title{
+	font-size: 20px !important;
+	color: #1a0dab;
+}
+.gs-title b{
+	font-size: 20px !important;
+	color: #1a0dab;
+}
+.gs-bidi-start-align.gs-visibleUrl.gs-visibleUrl-long{
+	color: var(--text-color) !important;
+}
+.gs-bidi-start-align.gs-visibleUrl.gs-visibleUrl-long b{
+	color: var(--text-color) !important;
+}
+
+.gs-bidi-start-align.gs-snippet{
+	color: var(--text-color) !important;
+}
+.gs-title{
+	font-family: 'Inter', Sans-serif;
+}
+.gs-bidi-start-align.gs-snippet{
+	font-family: 'Inter', Sans-serif;
+}
+.gs-bidi-start-align.gs-visibleUrl.gs-visibleUrl-long{
+	font-family: 'Inter', Sans-serif;
+}
+.gcsc-more-maybe-branding-root{
+	display: none !important;
+}
+.gs-mobilePreview{
+	border-radius: 10px;
+}
+.gcsc-find-more-on-google-root{
+	display: none;
+}
+.gsc-adBlock{
+	display: none !important;
+}
+.block-results{
+	padding: 10px;
+	color: var(--text-color);
+	border: solid 1pxvar(--light-opposite-color);
+	border-radius: 10px;
+	margin-top: 10px;
 }

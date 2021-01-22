@@ -71,41 +71,41 @@
     margin:0;
     margin-right: 20px;
 }
-.crossbar{
+.csbarWsxa56mO5H{
 	display: flex;
-	justify-content: space-between;
+    justify-content: space-between;
+    margin-top: 20px;
 }
-.crossbar button{
+.csbarWsxa56mO5H div button{
 	border: 0;
 	padding: 20px;
 	border-radius: 10px;
 	margin-right: 5px;
-	background-color: rgba(0,0,0,0.1);
+	background-color: var(--light-large-opposite-color);
 	outline: none;
 	transform: scale(1);
 	transition: width 0.2s cubic-bezier(0,0,.06,.97), transform 0.2s cubic-bezier(0,0,.06,.97) !important;
 }
-.crossbar button:hover{
-	background-color: rgba(0,0,0,0.4);
-	transition: background-color 0.2s linear, transform 0.2s cubic-bezier(0,0,.06,.97), width 0.2s cubic-bezier(0,0,.06,.97) !important;
+.csbarWsxa56mO5H div button:hover{
+	background-color: var(--light-opposite-color);
+	outline: none;
+	transform: scale(1);
+	transition: width 0.2s cubic-bezier(0,0,.06,.97), transform 0.2s cubic-bezier(0,0,.06,.97) !important;
 }
-.crossbar button:active{
+.csbarWsxa56mO5H div button:active{
 	transform: scale(0.9);
 	transition: transform 0.2s cubic-bezier(0,0,.06,.97), width 0.2s cubic-bezier(0,0,.06,.97) !important;
 }
-.crossbar-button-active{
-	border: 0;
+.csbarWsxa56mO5H div .active{
+    border: 0;
 	padding: 20px;
 	border-radius: 10px;
 	margin-right: 5px;
-	background-color: rgba(0,0,0,0.7) !important;
-	color: white;
+	background-color: var(--shadow-colors) !important;
+	color: var(--body-color);
 	outline: none;
 	transition: width 0.2s cubic-bezier(0,0,.06,.97) !important;
-	}
-	.crossbar-button-active img{
-	filter: invert();	
-	}
+}
 .gsc-tabsArea{
 	display: none;
 }
