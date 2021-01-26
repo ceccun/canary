@@ -83,7 +83,8 @@
 	margin-right: 5px;
 	background-color: var(--light-large-opposite-color);
 	outline: none;
-	transform: scale(1);
+    transform: scale(1);
+    color: var(--text-color);
 	transition: width 0.2s cubic-bezier(0,0,.06,.97), transform 0.2s cubic-bezier(0,0,.06,.97) !important;
 }
 .csbarWsxa56mO5H div button:hover{
