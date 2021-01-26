@@ -2,13 +2,25 @@ window["query"] = new URL(window.location).searchParams.get("q");
 window["initquery"] = new URL(window.location).searchParams.get("q");
 window["firstItems"] = 0;
 
-flsestrings["wJpGijhQgX"]={
-"default": "<p>You're currently using an early-access version of Stella.</p>",
-"ja": "<p>現在、早期アクセスバージョンのStellaを使用しています。</p>"
+flsestrings["text"]={
+    "default": "Text",
+    "ja": "ウェブ",
+    "zh": "互联网"
+};
+flsestrings["images"]={
+    "default": "Images",
+    "ja": "写真",
+    "zh": "相片"
+};
+flsestrings["tab"]={
+    "default": "Tab"
+},
+flsestrings["tabbed"]={
+    "default": "Tabbed",
+    "ja": "保存しました",
+    "zh": "已保存"
 }
-flsestrings["UTQ1eptGx9"]={
-"default": "<p>Connect your Stella ID account to get Pickup activity from other devices.</p>"
-}
+
 function flseLoadcall(){
     const uri = document.URL;
     const currenturi = uri.split("#gsc.tab=")[1].split("&")[0];
@@ -18,6 +30,17 @@ function flseLoadcall(){
     } else{
         document.getElementById("txtbtn").setAttribute("class","");
         document.getElementById("imgbtn").setAttribute("class","active");
+    }
+    var s = window.localStorage;
+    if (s.getItem("tabs") == null){
+        const data = JSON.parse(s.getItem("tabs"))
+        data.forEach((item, index) => {
+            if (item["name"] == window["query"]){
+                document.getElementById("tabbtn").setAttribute("class","active");
+                document.getElementById("tabbtn2").setAttribute("class","active");
+                window["tabindex"] = index
+            }
+        });
     }
 }
 
