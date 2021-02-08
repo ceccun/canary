@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Kosugi+Maru&family=Noto+Sans+SC:wght@400;700&display=swap");
+@media only screen and (min-width: 769px) {
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--body-color);
+  }
+  .content {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    font-family: "Inter", "Kosugi Maru", sans-serif;
+    color: var(--text-color);
+  }
+  .a {
+    font-family: "Inter", "Kosugi Maru", sans-serif;
+    color: var(--text-color);
+    text-decoration: none;
+  }
+  .svg {
+    filter: invert(var(--imgfiltercolor));
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--body-color);
+  }
+  .content {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    font-family: "Inter", "Kosugi Maru", sans-serif;
+    color: var(--text-color);
+  }
+  .a {
+    font-family: "Inter", "Kosugi Maru", sans-serif;
+    color: var(--text-color);
+    text-decoration: none;
+  }
+  .svg {
+    filter: invert(var(--imgfiltercolor));
+  }
+}
