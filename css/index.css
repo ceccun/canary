@@ -59,6 +59,8 @@
     width: 100%;
     height: 40px;
   }
+  #loading1 {
+  }
 }
 /* Copy this @keyframes block to your CSS*/
 @keyframes loading {

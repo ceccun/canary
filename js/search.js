@@ -71,3 +71,7 @@ document.getElementById("imgbtn").addEventListener("click", ()=>{
     document.getElementById("txtbtn").setAttribute("class","");
     document.getElementById("imgbtn").setAttribute("class","active");
 });
+
+function loadcall(){
+    document.getElementById("loadingcon").setAttribute("style","display:none;")
+}

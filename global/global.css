@@ -46,9 +46,9 @@
     );
     background-size: 600% 600%;
 
-    -webkit-animation: AnimationName 6s ease infinite;
-    -moz-animation: AnimationName 6s ease infinite;
-    animation: AnimationName 6s ease infinite;
+    -webkit-animation: AnimationName 3s ease infinite;
+    -moz-animation: AnimationName 3s ease infinite;
+    animation: AnimationName 3s ease infinite;
   }
 
   @-webkit-keyframes AnimationName {

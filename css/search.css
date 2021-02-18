@@ -116,12 +116,14 @@
   .gsc-control-cse.gsc-control-cse-en {
     padding: 0;
     margin-top: 10px;
+    background-color: var(--body-color) !important;
   }
   .gsc-orderby {
     display: none;
   }
   .gsc-webResult.gsc-result {
     width: 50%;
+    background-color: var(--body-color) !important;
   }
   .gs-title {
     font-size: 20px !important;
@@ -149,11 +151,17 @@
   .gcsc-more-maybe-branding-root {
     display: none !important;
   }
+  .gs-bidi-start-align.gs-snippet {
+    color: var(--text-color) !important;
+  }
   #searchres {
     width: 50%;
     height: 30px;
     margin-bottom: 10px;
     border-radius: 10px;
+  }
+  #loadingcon {
+    width: 50%;
   }
 }
 
@@ -297,5 +305,8 @@
     border: solid 1pxvar (--light-opposite-color);
     border-radius: 10px;
     margin-top: 10px;
+  }
+  #loadingcon {
+    width: 100%;
   }
 }
