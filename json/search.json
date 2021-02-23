@@ -1,14 +1,6 @@
 [
     {
-        "tag":"loading",
-        "value":"<loadingh></loadingh><loadingp></loadingp><loadingp></loadingp><loadingp></loadingp><loadingp></loadingp><loadingp></loadingp><loadingp></loadingp><loadingp></loadingp><loadingp></loadingp><loadingp></loadingp><loadingp></loadingp><loadingp></loadingp><loadingp></loadingp><loadingp></loadingp><loadingp></loadingp><loadingp></loadingp>"
-    },
-    {
-        "tag":"loadingh",
-        "value":"<div class='loading' style='width: 50%; height: 30px; margin-top: 10px;'></div>"
-    },
-    {
-        "tag":"loadingp",
-        "value":"<div class='loading' style='width: 45%; height: 20px; margin-top:5px;'></div>"
+        "tag": "loadingpack",
+        "value": "<div style='margin-top: 30px;' id='loadingcon'><loadingthing></loadingthing><loadingthing></loadingthing></div>"
     }
 ]
